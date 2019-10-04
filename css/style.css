@@ -1,0 +1,46 @@
+#container {
+    display: flex; /*makesk container a flex box*/
+    flex-flow: row wrap; /*layout the rows and wrap them */
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right:auto;
+    max-width:1050px;
+}
+.container {
+    display: flex; /*makesk container a flex box*/
+    flex-flow: row wrap; /*layout the rows and wrap them */
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right:auto;
+    max-width:1050px;
+}
+
+.card {
+    flex: 1; /*make contents controllable with flexbox */
+    display:flex;
+    flex-flow: column;
+    max-width: 240px;
+    margin:10px;
+    padding: 20px;
+    background-color: #000;
+}
+
+
+.box {
+    flex: 1; /*make contents controllable with flexbox */
+    display:flex;
+    flex-flow: column;
+    max-width: 240px;
+    margin:10px;
+    padding: 20px;
+    background-color: #000;
+}
+.makeRed {
+    background-color: red;
+}
+
+.makeBlue {
+    background-color: blue;
+}
+
+
